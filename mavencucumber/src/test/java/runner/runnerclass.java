@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features ="FeatureFiles/DataTableWithoutHeader.feature", glue = "StepDefinition")
+@CucumberOptions(features ="FeatureFiles/DataTableWithExamples.feature", glue = "StepDefinition")
 public class runnerclass {
 
 }
